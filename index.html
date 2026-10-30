@@ -15,6 +15,17 @@ button,a{font:inherit}.cover{min-height:100svh;display:flex;align-items:center;j
 main{max-width:760px;margin:auto;padding:18px}.section{background:var(--cream);border:1px solid #e5d2a6;border-radius:22px;margin:18px 0;padding:28px 20px;text-align:center;box-shadow:0 7px 22px #42351a0d}.section h2{color:var(--green);font-size:29px;margin:0 0 14px}.divider{color:var(--gold);letter-spacing:8px;margin:16px}.details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}.detail{padding:16px 10px;background:#f4ecd9;border-radius:15px}.detail strong{display:block;color:var(--green);margin-bottom:8px}.countdown{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.countdown div{background:var(--green);color:white;padding:12px 14px;border-radius:12px;min-width:65px}.countdown b{font-size:23px;display:block}.countdown span{font:11px Arial,sans-serif}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:13px;background:#eee2c5}.placeholder{aspect-ratio:1;border-radius:13px;background:#f1e5cb;display:grid;place-items:center;font-size:38px;color:#b4975d}.prayer{font-size:22px;line-height:2;color:var(--green)}footer{text-align:center;padding:30px 10px;color:#647168;font-size:13px}
 input,select,textarea{width:100%;padding:12px;border:1px solid #d8c69b;border-radius:10px;background:white;font:15px Arial;margin:6px 0 12px}label{text-align:left;display:block;font:13px Arial,sans-serif;color:#42564b}
 @media(max-width:480px){.card{padding:28px 18px}.details{grid-template-columns:1fr}.section{padding:24px 15px}.baby-name{font-size:24px}}
+  .gallery img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery .placeholder:last-child img {
+  object-position: center top;
+}
+
 </style>
 </head>
 <body>
